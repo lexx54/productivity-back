@@ -1,0 +1,20 @@
+{
+  "name": "productivity-back",
+  "version": "1.0.0",
+  "description": "Backend of the Productivity app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "CodeLexx",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0"
+  }
+}
