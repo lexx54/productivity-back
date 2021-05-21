@@ -4,17 +4,22 @@
   "description": "Backend of the Productivity app",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "CodeLexx",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
-    "mongoose": "^5.12.10"
+    "mongoose": "^5.12.10",
+    "mongoose-unique-validator": "^2.0.3"
   },
   "devDependencies": {
-    "eslint": "^7.26.0"
+    "eslint": "^7.26.0",
+    "nodemon": "^2.0.7"
   }
 }
